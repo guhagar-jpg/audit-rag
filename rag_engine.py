@@ -8,7 +8,7 @@ import numpy as np
 import faiss
 import anthropic
 from sentence_transformers import SentenceTransformer
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 class RAGEngine:
